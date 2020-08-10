@@ -1,7 +1,8 @@
 import 'package:flutter_test/flutter_test.dart' show expect, group, isA, setUp, tearDownAll, test, throwsA;
-import 'package:galleryapp/models/user.dart';
 
-import 'package:galleryapp/user_holder.dart';
+import '../lib/models/user.dart';
+import '../lib/user_holder.dart';
+
 
 void main() {
   UserHolder holder;
